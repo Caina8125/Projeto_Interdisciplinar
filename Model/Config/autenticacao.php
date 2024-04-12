@@ -29,7 +29,7 @@ class Autenticacao {
 }
 
 // Exemplo de uso
-$conexao = new PDO('mysql:host=localhost;dbname=teste_sexte_feira', 'root', '');
+$conexao = new PDO('mysql:host=localhost;dbname=jornada_interdisciplinar', 'lab3', '123');
 $autenticacao = new Autenticacao($conexao);
 
 // Verifica se o usuário com CPF '09876543243' e senha 'Senha Aluno MD5' é válido
