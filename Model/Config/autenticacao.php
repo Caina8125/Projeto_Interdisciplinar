@@ -1,6 +1,6 @@
 <?php
 
-require '../Model/Config/conect.php';
+require 'conect.php';
 
 class Autenticacao {
     private $conexao;

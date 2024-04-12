@@ -1,8 +1,8 @@
 <?php
 
 $hostname = 'localhost:3306'; 
-$username = 'root'; 
-$password = 'Caina8125@'; 
+$username = 'lab3'; 
+$password = '123'; 
 $database = 'jornada_interdisciplinar'; 
 
 try {
