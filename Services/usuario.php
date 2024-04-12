@@ -10,6 +10,7 @@ class Usuario {
     private $email;
     private $turno;
     
+    
     public function __construct($id, $nome, $sobreNome, $matricula, $cpf, $senha, $turno,$email) {
         $this->id = $id;
         $this->nome = $nome;
